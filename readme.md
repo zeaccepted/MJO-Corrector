@@ -1,4 +1,4 @@
-# ReSA-bias-correction
+# MJO-Corrector
 
 This repository contains the code used for "".
 
