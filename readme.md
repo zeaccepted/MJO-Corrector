@@ -1,6 +1,6 @@
 # MJO-Corrector
 
-This repository contains the code used for "".
+This repository contains the code used for "A Physics-Guided AI Post-processor Significantly Extends Madden-Julian Oscillation Prediction Skill".
 
 
 ## 📖 Introduction
@@ -12,7 +12,7 @@ This repository contains the code used for "".
 - PyTorch 1.12+
 
 ## 📁 Dataset
-
+The atmospheric circulation data used in this study are from the NCEP/DOE Reanalysis-2 (R2) dataset, accessible through the Physical Sciences Laboratory (PSL) at NOAA: https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.pressure.html. The outgoing longwave radiation (OLR) data are obtained from the NOAA Interpolated OLR product, available at: https://psl.noaa.gov/data/gridded/data.olrcdr.interp.html. The subseasonal forecast data were provided by the respective modeling centers (ECMWF, BCC, and NCEP) and can be acquired through their institutional data portals or upon request.
 
 ## 🏃‍♂️ Training and Evaluation
 1. Training
