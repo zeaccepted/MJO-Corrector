@@ -4,6 +4,8 @@ This repository contains the code used for "A Physics-Guided AI Post-processor S
 
 
 ## 📖 Introduction
+The Madden-Julian Oscillation (MJO) is an important driver of global weather and climate extremes, but its prediction in operational dynamical models remains challenging, with skillful forecasts typically limited to 3-4 weeks. Here, we introduce a novel deep learning framework, the Physics-guided Cascaded Corrector for MJO (PCC-MJO), which acts as a universal post-processor to correct MJO forecasts from dynamical models. This two-stage model first employs a physics-informed 3D U-Net to correct spatial-temporal field errors, then refines the MJO’s RMM index using an LSTM optimized for forecast skill. When applied to three different operational forecasts from CMA, ECMWF and NCEP, our unified framework consistently extends the skillful forecast range (bivariate correlation > 0.5) by 2-8 days. Crucially, the model effectively mitigates the "Maritime Continent barrier," enabling more realistic eastward propagation and amplitude. Explainable AI analysis quantitatively confirms that the model's decision-making is spatially congruent with observed MJO dynamics (correlation > 0.93), demonstrating that it learns physically meaningful features rather than statistical fittings. Our work provides a promising physically consistent, computationally efficient, and highly generalizable pathway to break through longstanding barriers in subseasonal forecasting.
+<img width="830" height="266" alt="image" src="https://github.com/user-attachments/assets/a90477f8-bef8-450f-924d-e68d2001ea2d" />
 
 
 
